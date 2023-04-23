@@ -1,0 +1,29 @@
+
+.menu-header-text {
+    color: black;
+    font-family:'East Sea Dokdo', cursive;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.menu-header-text-hover {
+    color: black;
+    font-family:'East Sea Dokdo', cursive;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.menu-subheader-text {
+    color: black;
+    font-family:'East Sea Dokdo', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.menu-normal-text {
+    color: rgb(0, 0, 0);
+    font-family:monospace;
+    font-size: large;
+    font-weight:lighter;
+
+}
