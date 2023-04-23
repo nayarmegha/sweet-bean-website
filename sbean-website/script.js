@@ -1,15 +1,8 @@
-function checkIfOpen() {
-    var now = new Date();
-    var day = now.getDay();
-    var hour = now.getHours();
-  
-    var otime = 10;
-    var ctime = 24;
-    var msg = "we open at "+otime+"am";
-    var until = "midnight";
-  
-    if (day >= 1 && day <= 4) ctime = 22, until = "10pm";
-    if (hour >= otime && hour <= ctime) msg = "we are open until " + until;
-  
-    document.getElementById('areWeOpen').textContent = msg;
-};
+var now = new Date();
+var hours = now.getHours()
+
+if (8 <= hours && hours < 17) {
+    document.getElementById("businessHours").innerHTML = "We are currently open.";
+} else {
+    document.getElementById("businessHours").innerHTML = "We are currently closed.";
+}
