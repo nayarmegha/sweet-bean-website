@@ -1,4 +1,4 @@
-var now = new Date(new Date().toLocaleString('en', {timeZone: 'America/New_York'}));
+var now = new Date(new Date().toLocaleString('en', {timeZone: 'America/New_York'}))
 var hours = now.getHours()
 
 if (8 <= hours && hours < 17) {
